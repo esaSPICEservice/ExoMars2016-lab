@@ -1,0 +1,4 @@
+#!/bin/bash
+git lfs install
+git clone https://repos.cosmos.esa.int/socci/scm/spice_kernels/ExoMars2016.git
+cd ExoMars2016/kernels/mk && spiops-mk
